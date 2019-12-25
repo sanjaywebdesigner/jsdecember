@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	
+</head>
+
+<body>
+	<form>
+		<input type="text" placeholder="first value" id="first"><br>
+		<input type="text" placeholder="second value" id="second"><br>
+		<input type="text" placeholder="answer" id="answer"><br>
+		<input type="button" value="+" onclick="ss()"><input type="button" value="-" onclick="ss1()"><input type="button" value="*" onclick="ss2()"><input type="button" value="/" onclick="ss3()"><input type="button" value="c" onclick="ss4()">
+	</form>
+	<script>
+		function ss()
+		{
+			firstvalue=Number(document.getElementById("first").value);
+			secondvalue=Number(document.getElementById("second").value);
+			total=firstvalue+secondvalue;
+			document.getElementById("answer").value=total;
+		}
+		function ss1()
+		{
+			firstvalue=Number(document.getElementById("first").value);
+			secondvalue=Number(document.getElementById("second").value);
+			total=firstvalue-secondvalue;
+			document.getElementById("answer").value=total;
+		}
+		function ss2()
+		{
+			firstvalue=Number(document.getElementById("first").value);
+			secondvalue=Number(document.getElementById("second").value);
+			total=firstvalue*secondvalue;
+			document.getElementById("answer").value=total;
+		}
+		function ss3()
+		{
+			firstvalue=Number(document.getElementById("first").value);
+			secondvalue=Number(document.getElementById("second").value);
+			total=firstvalue/secondvalue;
+			document.getElementById("answer").value=total;
+		}
+		function ss4()
+		{
+			document.getElementById("answer").value="";
+			document.getElementById("first").value="";
+			document.getElementById("second").value="";
+		}
+	</script>
+</body>
+</html>

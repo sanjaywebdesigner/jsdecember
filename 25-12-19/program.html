@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<form>
+	<input type = "text" placeholder="firstvalue" id="first"><br>
+    <input type = "text" placeholder="secondvalue" id="second"><br>
+	<input type = "text" placeholder="answer" id = "answer"><br>
+	<input type = "button" value="Add" onclick = "Add()"><br>
+	</form>
+	<script>
+		function Add()
+		{
+		firstvalue = Number(document.getElementById("first").value);
+		secondvalue = Number(document.getElementById("second").value);
+		total = firstvalue+secondvalue;
+		document.getElementById("answer").value=total;
+		}
+	</script>
+</body>
+</html>

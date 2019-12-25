@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>copy</title>
+</head>
+
+<body>
+	<form>
+		<input type = "text" placeholder = "write here" id="data"><br>
+		<input type = "button" value = "copy" onclick = "ss()"><br>
+		<input type="text" placeholder = "yourdata" id = "yourdata"><br> 
+	</form>
+	<script>
+		function ss()
+		{
+			ans = document.getElementById("data").value;
+			document.getElementById("yourdata").value = ans;
+		}
+	</script>
+</body>
+</html>

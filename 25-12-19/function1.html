@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	
+</head>
+
+<body>
+	<form>
+		<input type="text" maxlength="20" placeholder="first value" id="first"><br>
+		<input type="text" maxlength="20" placeholder="second value" id="second"><br>
+		<input type="text" maxlength="20" placeholder="answer" id="answer"><br>
+		<input type="button" value="+" onclick="ss()">
+	</form>
+	<script>
+		function ss()
+		{
+			firstvalue=Number(document.getElementById("first").value);
+			secondvalue=Number(document.getElementById("second").value);
+			total=firstvalue+secondvalue;
+			document.getElementById("answer").value=total;
+		}
+	</script>
+</body>
+</html>
