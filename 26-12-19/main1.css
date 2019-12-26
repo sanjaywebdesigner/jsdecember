@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.dd{
+	width:1000px;
+	height:100px;
+	background-color:green;
+}
+.dd1{
+	width:1000px;
+	height:100px;
+	background-color:red;
+}
+.dd2{
+	width:1000px;
+	height:100px;
+	background-color:blue;
+}

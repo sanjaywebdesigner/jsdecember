@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	
+	<input type="text" id="a1"><br>
+	<input type="button" onclick="indexing()">
+	
+	<p id="a2"></p>
+	
+	<script>
+	function indexing()
+		{
+		a=document.getElementById("a1").value;
+			b=a.length;
+			document.getElementById("a2").innerHTML=b;
+		}
+	</script>
+</body>
+</html>
