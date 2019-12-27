@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	width:1200px;
+	height:100px;
+	background-color:#E9E3E4;
+}
+.a1{
+	width:400px;
+	height:90px;
+	padding-top:10px;
+	padding-left:100px;
+	float:left;
+	
+	
+}
+.a2{
+	width:700px;
+	height:80px;
+	padding-top:20px;
+	float:left;
+}
+.d1{
+	width:70px;
+	height:50px;
+	background-color:blue;
+	float:left;
+	margin-right:5px;
+	border-radius:5px;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	border:2px solid red;
+	/*  border:3px solid red; all corners
+	border:10px 20px   top and bottom 10px right and left 20px;
+	border:10px 20px 30px 5px  top 10 px right 20px bottom 30px left 5px
+	border-right:3px solid red;
+	*/
+}
+.d1:hover{
+	background-color:brown;
+}
