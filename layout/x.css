@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	width:1000px;
+	height:600px;
+	background-color:yellow;
+}
+.top{
+	width:1000px;
+	height:150px;
+	background-color:red;
+}
+.bottom{
+	width:1000px;
+	height:450px;
+	background-color:yellow;
+}
+.s1{
+	width:900px;
+	height:150px;
+	margin:0 auto;
+	background-color:black;
+}
+.b1{
+	width:900px;
+	height:75px;
+	background-color:pink;
+}
+.b2{
+	width:900px;
+	height:50px;
+	background-color:green;
+}
+.s2{
+	width:900px;
+	height:450px;
+	margin:0 auto;
+	background-color:grey;
+}
+.a1{
+	width:900px;
+	height:20px;
+	background-color:white;
+}
+.a2{
+	width:900px;
+	height:200px;
+	background-color:lightblue;
+}
+.a3{
+	width:900px;
+	height:200px;
+	background-color:darkblue;
+}
