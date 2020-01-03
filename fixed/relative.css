@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.sanjay{width:1000px;
+	height:200px;
+	background-color:red;
+	
+}
+.deepak{width:1000px;
+	height:200px;
+	background-color:green;
+	position:relative;
+	top:-50px;
+	left:50px;
+}
+.dinesh{width:1000px;
+	height:200px;
+	background-color:pink;
+	
+}
+.a1{
+	font-size:60px;
+}
+.a2{
+	font-size:16px;
+	position:relative;
+	top:-20px;
+}
+.a3{
+	font-size:16px;
+	position:relative;
+	left:-60px;
+}

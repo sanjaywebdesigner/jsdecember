@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:600px;
+	height:610px;
+	background-color:lightblue;
+	
+	}
+.a1{width:245px;
+	height:150px;
+	margin-top:10px;
+	margin-left:10px;
+	background-color:darkblue;
+	float:left;
+	color:white;
+	padding:20px;
+	}
+/*
+padding:20px   all sides
+padding:20px 10px   top and bottom 20px  left and right 10px; 
+padding:10px 20px 30px 40px top right bottom left;
+padding:0 0 20px 10px;
+*/
