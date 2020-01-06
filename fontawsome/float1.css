@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{
+	width:100px;
+	height:100px;
+	background-color:red;
+	float:right;
+	
+}.s2{
+	width:100px;
+	height:100px;
+	background-color:green;
+	float:left;
+}
+.s3{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	float:left;
+}
+.s4{
+	width:100px;
+	height:100px;
+	background-color:black;
+	float:left;
+}
+.a1{
+	width:1000px;
+	height:50px;
+	background-color:pink;
+	clear:both;
+}
+.a2{
+	float:right;
+	width:500px;
+	height:50px;
+	background-color:yellow;
+}
+.b1{
+	width:123px;
+	height:48px;
+	float:left;
+	background-color:cyan;
+	border:1px dotted black;
+}
