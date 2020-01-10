@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:grey;
+	margin:0;
+	padding:0;
+}
+.main{
+	width:1000px;
+	height:1000px;
+	background-color:white;
+	margin:0 auto;
+}
+.header{
+	width:1000px;
+	height:100px;
+	background-color:white;
+
+}
+.s1{
+	width:250px;
+	height:100px;
+	float:left;
+    background-image:url("logo.gif");
+	background-repeat:no-repeat;
+	background-position:100px 10px;
+}
+.s2{
+	width:500px;
+	height:100px;
+	float:left;
+color:brown;
+	text-align:center;
+}
+.s3{
+	width:250px;
+	height:100px;
+	float:left;
+
+}
+.menu{
+	width:1000px;
+	height:50px;
+	background-color:red;
+
+}
+.a1{
+	width:250px;
+	height:50px;
+}
+.a2{
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	border:1px solid black;
+}
+h3,h4{
+	margin:10px;
+}
+.aa1{
+	margin-right:5px;
+}
+ul{
+	width:1000px;
+	height:50px;
+	margin:0;
+	padding:0;
+}
+li{
+	width:248px;
+	height:48px;
+	border:1px solid black;
+	float:left;
+	list-style-type:none;
+	line-height:48px;
+	text-align:center;
+	color:white;
+	background-color:red;
+}
+ul li ul{
+	width:250px;
+	display:none;
+}
+ul li:hover ul{
+	display:block;
+}
+ul li ul li{
+	position:relative;
+}
+ul li ul li ul{
+	position:absolute;
+	left:250px;
+	top:0px;
+}
+ul li:hover ul li ul{
+	display:none;
+}
+ul li ul li:hover ul{
+	display:block;
+}
+ul li ul li{
+	background-color:blue;
+}
+ul li ul li ul li{
+	background-color:#E7E0E0;
+}
