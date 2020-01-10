@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{
+	width:100px;
+	height:200px;
+	background-color:red;
+
+}
+.s2{
+	width:100px;
+	height:200px;
+	background-color:yellow;
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.s3{
+	width:100px;
+	height:200px;
+	background-color:green;
+	
+	
+}
