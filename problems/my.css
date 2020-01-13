@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.a{
+	width:100px;
+	height:200px;
+	background-color:red;
+}
+.b{
+	width:100px;
+	height:200px;
+	position:absolute;
+	top:-50px;
+	left:50px;
+	background-color:yellow;
+}
+.c{
+	width:100px;
+	height:200px;
+
+	background-color:green;
+}
