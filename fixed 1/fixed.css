@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	width:800px;
+	height:2000px;
+}
+.a1{
+	width:800px;
+	height:100px;
+	background-color:green;
+	position:fixed;
+	
+}
+.s1{
+	width:200px;
+	height:100px;
+	background-color:magenta;
+	float:left;
+	text-align:center;
+	line-height:100px;
+	
+}
+.a2{
+	width:800px;
+	height:1900px;
+	background-color:pink;
+	padding-top:100px;
+}
+.b1{
+	width:400px;
+	height:300px;
+	background-color:yellow;
+	text-align:center;
+	margin-bottom:10px;
+	vertical-align: middle;
+	display:table-cell;
+}
+.b2{
+	width:400px;
+	height:300px;
+	background-color:yellow;
+	text-align:center;
+	margin-top:10px;
+	
+}
