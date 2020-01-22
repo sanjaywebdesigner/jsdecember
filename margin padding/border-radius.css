@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{
+	width:200px;
+	height:200px;
+	background-color:red;
+background-image:url("ASEM6_COL_NEGB.jpg");
+	border-radius:100px;
+	background-size:100%;
+}
+
+.s2{
+	width:200px;
+	height:200px;
+	background-color:green;
+
+	border-radius:20px 30px 50px 100px;
+}
+.s3{
+	width:200px;
+	height:200px;
+	background-color:green;
+
+	border-radius:20px/40px;
+}

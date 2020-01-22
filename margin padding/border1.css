@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{
+	width:0px;
+	height:0px;
+	background-color:none;
+	padding-top:60px;
+	border-bottom: 100px solid black;
+	border-top: 100px solid rgba(0,0,0,0);
+	border-left: 100px solid rgba(0,0,0,0);
+	border-right: 100px solid rgba(0,0,0,0);
+}
+
