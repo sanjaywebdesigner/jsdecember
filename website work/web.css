@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:grey;
+}
+.main{
+	width:1000px;
+	height:1198px;
+	background-color:grey;
+	margin:0 auto;
+}
+.a1{
+	width:1000px;
+	height:143px;
+	background-color:orange;
+	
+}
+.b1{
+	width:405px;
+	height:143px;
+	float:left;
+	background-color:lightpink;
+	background-image:url("images.png");
+	background-repeat: no-repeat;
+	background-position:50px 30px;
+}
+.b2{
+	width:573px;
+	height:143px;
+	
+	float:left;
+}
+.c1{
+	font-size:40px;
+	color:black;
+	position:relative;
+	left:200px;
+	top:50px;
+}
+.c2{
+	font-size:30px;
+	color:black;
+	position:relative;
+	left:200px;
+	top:50px;
+}
+.d1{
+	width:573px;
+	height:83px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.d2{
+	width:573px;
+	height:50px;
+	
+}
+.aa1{
+	width:235px;
+	height:83px;
+	float:left;
+	
+}
+.aa2{
+	width:2px;
+	height:83px;
+	float:left;
+	background-color:white;
+}
+.aa3{
+	width:336px;
+	height:83px;
+	float:left;
+	
+}
+.e1{
+	height:50px;
+	width:113px;
+	margin-right:1px;
+	background-color: red;
+	float:left;
+}
+.e2{
+	height:50px;
+	width:117px;
+	margin-right:0px;
+	background-color: red;
+	float:left;
+}
+.a2{
+	width:1000px;
+	height:333px;
+	background-color:#ffd302;
+	
+}
+.a3{
+	width:1000px;
+	height:634px;
+	background-color:white;
+	
+}
+.a4{
+	width:1000px;
+	height:7px;
+	background-color:orange;
+	
+}
+.a5{
+	width:1000px;
+	height:81px;
+	background-color:white;
+	
+}

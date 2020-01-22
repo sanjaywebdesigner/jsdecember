@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{width:500px;
+	height:500px;
+	background-color:red;
+	background-image:url("2_32_thumb.gif");
+	background-repeat:no-repeat;
+	/*background-size:100%;*/
+	/*background-position:center center;*/
+	background-position:100px 200px;
+}
+
+
