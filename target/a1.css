@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{
+	width:200px;
+	height:50px;
+	background-color:red;
+	display:block;
+}
+
+.s2{
+	width:200px;
+	height:0px;
+	background-color:green;
+}
+#gg:target{
+	height:300px;
+	transition:1s;
+}

@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{
+	width:300px;
+	height:300px;
+	border:10px solid black;
+	background-color:red;
+	position:relative;
+	overflow:hidden;
+}
+.s2{
+	width:300px;
+	height:300px;
+	background-image:url("images.jpg");
+	position:absolute;
+	top:0;
+	left:0;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.s3{
+	width:300px;
+	height:300px;
+	background-color:brown;
+	opacity:0;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.s4{
+	width:300px;
+	height:50px;
+	background-color:black;
+	text-align:center;
+	line-height:50px;
+	opacity:0;
+	position:absolute;
+	top:-100px;
+	left:0;
+	color:white;
+}
+.s5{
+	width:100px;
+	height:50px;
+	background-color:black;
+	text-align:center;
+	line-height:50px;
+	opacity:0;
+	position:absolute;
+	top:350px;
+	left:100px;
+	color:white;
+}
+.s1:hover .s2{
+	background-size:120%;
+	transition:.3s;
+	/*background-position:-30px -30px;*/
+	width:360px;
+	height:360px;
+	left:-30px;
+	top:-30px;
+}
+.s1:hover .s3{
+	opacity:.5;
+	transition:.3s;
+}
+.s1:hover .s4{
+	opacity:1;
+	transition:.3s;
+	top:20px;
+}
+.s1:hover .s5{
+	opacity:1;
+	transition:.3s;
+	top:200px;
+}

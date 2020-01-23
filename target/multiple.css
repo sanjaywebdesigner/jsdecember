@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.s2{
+	width:200px;
+	height:200px;
+	background-color:green;
+	margin:100px;
+	position:relative;
+	
+}
+.s2:hover{
+	transition:1s;
+	transform:scale(2,2) rotate(360deg) translate(50px,50px) skew(30deg,0);
+}
