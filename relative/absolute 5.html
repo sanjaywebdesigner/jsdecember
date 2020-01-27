@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.a1{
+			position:relative;
+			width:200px;
+			height:250px;
+		}
+		.s1{
+			width:100px;
+			height:50px;
+			background-color:red;
+			
+			float:left;
+		}
+		.s2{
+			width:200px;
+			height:200px;
+			position:absolute;
+			left:0px;
+			top:50px;
+			background-color:green;
+			
+			opacity:0;
+		}
+		.s1:hover .s2{
+			opacity:1;
+			transition:2s;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="a1">
+	<div class="s1">Home
+	<div class="s2">c1</div>
+	</div>
+	<div class="s1">About
+	<div class="s2">c2</div>
+	</div>
+	</div>
+</body>
+</html>
