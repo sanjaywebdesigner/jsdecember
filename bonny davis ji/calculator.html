@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" placeholder="first value" id="a1"><br>
+	<input type="text" placeholder="second value" id="a2"><br>
+	<input type="text" placeholder="answer" id="a3"><br>
+	<input type="button" onclick="ss()" value="+"><input type="button" onclick="ss1()" value="-"><input type="button" onclick="ss2()" value="*"><input type="button" onclick="ss3()" value="/">
+	<script>
+	function ss()
+		{
+			first=Number(document.getElementById("a1").value);
+			second=Number(document.getElementById("a2").value);
+			total=first+second;
+			document.getElementById("a3").value=total;
+		}
+		function ss1()
+		{
+			first=Number(document.getElementById("a1").value);
+			second=Number(document.getElementById("a2").value);
+			total=first-second;
+			document.getElementById("a3").value=total;
+		}
+		function ss2()
+		{
+			first=Number(document.getElementById("a1").value);
+			second=Number(document.getElementById("a2").value);
+			total=first*second;
+			document.getElementById("a3").value=total;
+		}
+		function ss3()
+		{
+			first=Number(document.getElementById("a1").value);
+			second=Number(document.getElementById("a2").value);
+			total=first/second;
+			document.getElementById("a3").value=total;
+		}
+	</script>
+</body>
+</html>
