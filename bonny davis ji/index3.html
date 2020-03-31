@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" placeholder="first value" id="a1"><br>
+	
+	<input type="button" onclick="ss()" value="check">
+	<p id="gg"></p>
+	<script>
+	function ss()
+		{
+			first=document.getElementById("a1").value;
+			a=first.length;
+			
+			b=first.indexOf(".");
+			c = first.indexOf("@");
+			d = a-b;
+			if(c<5)
+				{
+				  document.getElementById("gg").innerHTML="Please provide atleast 5 characters before ";
+				}
+			else if(d<4)
+				{
+					document.getElementById("gg").innerHTML="Please provide 3 characters after .";
+				}
+			else if(b==-1)
+				{
+					document.getElementById("gg").innerHTML="please enter .";
+				}
+			else{
+				document.getElementById("gg").innerHTML="correct";
+			}
+			
+		}
+		
+	</script>
+</body>
+</html>

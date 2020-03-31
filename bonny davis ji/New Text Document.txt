@@ -1,0 +1,11 @@
+sanjay@gmail.co.in
+sanjaywebdesigner.co.in
+
+
+1.  minimum 8 characters
+2. @
+2.1 @ and . ke beech main 3 characters
+3 dot( single or double)
+if single  .   after dot exact 3 characters
+if 2 dots  between 2 dots 2 characters and after last dot 2 characterts
+4.    before @ 5 characters

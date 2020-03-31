@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" placeholder="first value" id="a1"><br>
+	
+	<input type="button" onclick="ss()" value="check">
+	<p id="gg"></p>
+	<script>
+	function ss()
+		{
+			first=document.getElementById("a1").value;
+		
+			a=first.indexOf(".");
+			b=first.lastIndexOf(".");
+			c=b-a;
+			
+			if(c!=3)
+				{
+				  document.getElementById("gg").innerHTML="Please enter 2 characters between 2 dots";
+				}
+			
+			else{
+				document.getElementById("gg").innerHTML="correct";
+			}
+			
+		}
+		
+	</script>
+</body>
+</html>

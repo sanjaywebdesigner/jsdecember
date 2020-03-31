@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" placeholder="first value" id="a1"><br>
+	
+	<input type="button" onclick="ss()" value="check">
+	<p id="gg"></p>
+	<script>
+	function ss()
+		{
+			first=document.getElementById("a1").value;
+			
+			a=first.length;
+			if(a<8)
+				{
+					document.getElementById("gg").innerHTML="please enter min 8 characters";
+				}
+			else{
+				document.getElementById("gg").innerHTML="correct";
+			}
+			
+		}
+		
+	</script>
+</body>
+</html>
