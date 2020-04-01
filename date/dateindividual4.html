@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body onload="ss()">
+	<p id="aa"></p>
+	<script>
+		function ss()
+		{
+			setInterval(dd,1000);// 1000 miliseconds is 1 sec
+		}
+	function dd()
+		{
+			a=new Date();
+		hour=a.getHours();
+		minute=a.getMinutes();
+		second=a.getSeconds();
+		b=hour+" : "+minute+" : "+second;
+			document.getElementById("aa").innerHTML=b;
+		}
+	
+	
+	</script>
+</body>
+</html>

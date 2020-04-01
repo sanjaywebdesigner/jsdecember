@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body onload="dd()">
+	<p id="aa"></p>
+	<script>
+	function dd()
+		{
+			a=new Date();
+		hour=a.getHours();
+		minute=a.getMinutes();
+		second=a.getSeconds();
+		b=hour+" : "+minute+" : "+second;
+			document.getElementById("aa").innerHTML=b;
+		}
+	
+	
+	</script>
+</body>
+</html>

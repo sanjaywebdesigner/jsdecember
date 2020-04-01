@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body onload="ss()">
+	<p id="aa"></p>
+	<script>
+		function ss()
+		{
+			setInterval(dd,1000);// 1000 miliseconds is 1 sec
+		}
+	function dd()
+		{
+			 
+				//11 bajkar 59 minute 60 second
+				
+				
+			
+			a=new Date();
+		hour=a.getHours();
+		minute=a.getMinutes();
+		second=a.getSeconds();
+		hour1=11-hour;
+			minute1=59-minute;
+			second1=60-second;
+			b=hour1+" : "+minute1+" : "+second1;
+			document.getElementById("aa").innerHTML=b;
+		}
+	
+	
+	</script>
+</body>
+</html>

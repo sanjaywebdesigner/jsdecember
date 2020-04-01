@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<!--
+month  
+fab    28 days
+jan mar may jul aug oct dec  31
+apr jun sep nov 30
+monthd<0
+
+-->
+<body>
+	<input type="text" placeholder="date" id="bb1"><br>
+	<input type="text" placeholder="month" id="bb2"><br>
+	<input type="text" placeholder="year" id="bb3"><br>
+	<input type="button" value="age calculate" onclick="dd()"><br>
+	<p id="aa"></p>
+	<script>
+		
+	function dd()
+		{
+			 
+			date1=Number(document.getElementById("bb1").value);	
+			month1=Number(document.getElementById("bb2").value);	
+			year1=Number(document.getElementById("bb3").value);	
+			
+			a=new Date();
+		date=a.getDate();
+		month=a.getMonth()+1;
+		year=a.getFullYear();
+		
+			dated=date-date1;
+			monthd=month-month1;
+			yeard=year-year1;
+			if(dated<0)
+				{
+					dated=dated+30;
+					monthd=monthd-1;
+				}
+			
+			
+			b=yeard+" years "+monthd+" months "+dated+" days";
+			document.getElementById("aa").innerHTML=b;
+		}
+	
+	
+	</script>
+</body>
+</html>
