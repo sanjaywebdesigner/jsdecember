@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" placeholder="First Value"><br>
+	<input type="text" placeholder="Second Value"><br>
+	<input type="text" placeholder="Answer"><br>
+	<input type="button" value = "add"><br>
+	<script>
+		a=document.querySelectorAll("input");// this initializes array 'a'//
+		// a=[a[0],a[1],a[2],a[3]]
+		a[3].addEventListener("click",ss);
+	function ss()
+		{
+			
+			a1=Number(a[0].value);
+			b1=Number(a[1].value);
+		    c1=a1+b1;
+			a[2].value=c1;
+		}
+	</script>
+</body>
+</html>
