@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+	
+	cnt = 1;
+	for(row = 1;row<=3;row++)
+		{
+			// Empty spaces
+			for(col = 1;col<=(3-row);col++)
+				{
+					document.write("*"+"&nbsp;&nbsp;");
+				}
+			// printing numbers
+			for(col = 1;col<=row;col++)
+				{
+					document.write(col+"&nbsp;&nbsp;");
+				}
+			document.write("<br>")
+		}
+	</script>
+</body>
+</html>
+
+
+<!--
+
+// cnt = 1;
+	for(row = 1;row<=3;row++)
+		{
+			// Empty spaces
+			for(col = 1;col<=2*(3-row+1)-1;col++)
+				{
+					document.write(""+" ");
+				}8
+			// printing numbers
+			for(col = 1;col<=row;col++)
+				{
+					document.write(col+" ");
+				}
+			document.write("<br>")
+		}
+q7
+           1
+        1 2
+     1 2 3
+
+-->
