@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.gg1{
+			color:red;
+		}
+	   .gg2{
+			color:yellow;
+		}
+		.gg3{
+			color:green;
+		}
+	</style>
+</head>
+
+<body>
+	<input type="text" onKeyUp="ss()">
+	
+	<script>
+		function ss()
+		{
+			a=document.querySelector("input");
+			a1=a.value;
+			b=a1.length;
+			if(b<=4)
+				{
+					a.classList.add("gg1");
+				}
+			else if(b>4 && b<8)
+				{
+					a.classList.add("gg2");
+				}
+			else
+				{
+					a.classList.add("gg3");
+				}
+		}
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		input{
+			float:left;
+			width:200px;
+			height:50px;
+		}
+		.gg1{
+			background-image:url("cross.jpg");
+		}
+	   .gg2{
+			
+			background-image:url("right.jpg");
+		}
+		
+		div{
+			width:50px;
+			height:50px;
+			float:left;
+		}
+	</style>
+</head>
+
+<body>
+	<input type="text" onKeyUp="ss()">
+	<div></div>
+	<script>
+		function ss()
+		{
+			a=document.querySelector("div");
+			a1=document.querySelector("input").value;
+			b=a1.length;
+			
+			if(b<=8)
+				{
+					a.classList.add("gg1");
+				}
+			
+			else{
+				a.classList.add("gg2");
+			}
+		}
+	
+	</script>
+</body>
+</html>
+

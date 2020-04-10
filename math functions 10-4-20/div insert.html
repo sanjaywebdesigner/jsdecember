@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+.a1 {
+    width: 508px;
+    height: 52px;
+	background-color:blue;
+	margin: 0;
+    padding: 0;
+}
+.a2 {
+    width: 125px;
+    height: 50px;
+    border: 1px solid black;
+	background-color:yellow;
+    float: left;
+}
+.g1 {
+    width: 100px;
+    height: 50px;
+	background-color:pink;
+    float: left;
+}
+.g2 {
+    width: 708px;
+    height: 500px;
+    border: 1px solid red;
+	background-color:green;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+</style>
+</head>
+
+<body>
+<div class="g1">sanjay jain-g1</div>
+<div class="g2" id="hh"></div>
+<!--   
+first condition  starting point
+last condition   end point
+increment or decrement
+for(a=1;a<=10;a++)
+--> 
+<script>
+		// ss=document.querySelector(".g2");if id use # if class use dot if tag then nothing getElementsByClassName querySelector("#hh")//
+		ss=document.getElementById("hh");
+	for(a=1;a<=3;a++)
+		{
+			ss.innerHTML+="<div class='a1' id = 'xx'></div>";//single quotes or double quotes ??
+			for(b=1;b<=4;b++)
+				{
+				   document.getElementById("xx").innerHTML+="<div class='a2'>a2</div>";
+				}
+		}
+	</script>
+</body>
+</html>
+<!--in this program we use "for loop" to create four a2 div's inside a1 div -->
+
+
+
