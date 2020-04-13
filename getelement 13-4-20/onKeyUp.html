@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" id="a1" placeholder="enter salary" onKeyUp="s1()">
+	
+	<p>Salary = <span></span></p>
+	<p>HRA = <span></span></p>
+	<p>DA = <span></span></p>
+	<p>PF = <span></span></p>
+	<p>Net Salary = <span></span></p>
+	<script>
+	function s1()
+		{
+			a=Number(document.getElementById("a1").value);
+			// b=[p[0],p[1],p[2],p[3],p[4]];
+			b=document.getElementsByTagName("span");
+			b[0].innerHTML=a;
+			b[1].innerHTML=a*.1;
+			b[2].innerHTML=a*.15;
+			b[3].innerHTML=a*.12;
+			b[4].innerHTML=a+a*.1+a*.15-a*.12;
+		}
+	</script>
+	<!--
+
+-->
+</body>
+</html>

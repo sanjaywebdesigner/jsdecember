@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" id="a1">
+	<input type="button" onclick="s1()">
+	<p class="s2"></p>
+	<script>
+	function s1()
+		{
+			a=document.getElementById("a1").value;
+			b=document.getElementsByClassName("s2");
+			b[0].innerHTML=a;
+		}
+	</script>
+</body>
+</html>
