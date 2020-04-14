@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>reverseNumber</title>
+</head>
+<body>
+   <input type = "text" placeholder = "enter the number" id = "ss1"><br>
+   <input type = "button" onclick = "ss()" value = "check"><br>
+	<p id = "ss2"></p>
+	<script>
+	    function ss()
+		{
+		  var  num = Number(document.getElementById("ss1").value);
+		   var temp = 0;
+			while(num!=0)
+				{
+					var rem = num%10;
+					num = parseInt(num/10);
+					temp = temp*10+rem;
+				}
+			document.getElementById("ss2").innerHTML = temp;
+		}
+	</script>
+	</body>
+</html>

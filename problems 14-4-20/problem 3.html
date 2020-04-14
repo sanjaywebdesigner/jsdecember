@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<input type="text" id="s1">
+	<input type="button" onclick="ss()">
+	<p id="s2"></p>
+   <script>
+	   function ss()
+	   {
+		   a=document.getElementById("s1").value;
+		   aa=a.length;
+		   b=Number(a);
+		   c=0;
+		   d=0;
+		   for(i=0;i<aa;i++)
+			   {
+				  d=b%10;
+				   b=parseInt(b/10);
+				   c=c*10+d;
+			   }
+		   document.getElementById("s2").innerHTML=c;
+	   }
+	</script>
+	</body>
+</html>
