@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type = "text" placeholder = "name" id = "ss">
+	<input type = "button" onclick = "ss1()" value = "check">
+  <div></div>
+	<script>
+		temp=0;
+		function ss1()
+		{
+			
+			if(temp==0)
+				{
+	    a = document.getElementById("ss").value;
+		a1=document.createElement("ul");
+		b = document.createElement("li");
+		b.innerHTML = a;
+			a1.appendChild(b);
+		c=document.querySelector("div");
+        c.appendChild(a1);
+					temp=1;
+		}
+			else{
+				 a = document.getElementById("ss").value;
+		
+		b = document.createElement("li");
+		b.innerHTML = a;
+			a1=document.querySelector("ul");
+				a1.appendChild(b);
+		
+			}
+		}
+	</script>
+	
+</body>
+</html>
+<!--By creating div allthe names in p will be created in div so the location of these names will be in div whereas no div will place these names in the bottom of the body as the script is being run towards the end of the body-->

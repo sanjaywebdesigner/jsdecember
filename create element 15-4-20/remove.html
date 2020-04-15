@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<p>sanjay</p>
+	<p>deepak</p>
+	<p>mohit</p>
+	<input type="text" placeholder="value to delete" id="hh">
+	
+	<input type="button" onclick="ss()">
+	<h1></h1>
+	<script>
+	function ss()
+		{
+			c=0;
+			a=document.querySelectorAll("p");
+			d=document.getElementById("hh").value;
+			
+			for(b=0;b<a.length;b++)
+				{
+					if(a[b].innerHTML==d)
+						{
+						document.body.removeChild(a[b]);	
+						}
+				}
+			
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<p>sanjay</p>
+	<p>deepak</p>
+	<p>mohit</p>
+	<input type="text" placeholder="value to search" id="hh">
+	<input type="button" onclick="ss()">
+	<h1></h1>
+	<script>
+	function ss()
+		{
+			c=0;
+			a=document.querySelectorAll("p");
+			d=document.getElementById("hh").value;
+			for(b=0;b<a.length;b++)
+				{
+					if(a[b].innerHTML==d)
+						{
+						c=1;	
+						}
+				}
+			if(c==0)
+				{
+					document.querySelector("h1").innerHTML="value not found";
+				}
+			else{
+				document.querySelector("h1").innerHTML="value found";
+			}
+		}
+	</script>
+</body>
+</html>
