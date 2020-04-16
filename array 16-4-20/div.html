@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>search</title>
+</head>
+<body>
+   <p>bonny</p>
+   <p>bella</p>
+   <p>beauty</p>
+   <p>Mrs Devassy</p>
+   <p>Mr Devassy</p>
+	<input type = "text" placeholder = "enter the name" id ="s1">
+    <input type = "button" onclick = "ss()" value ="check"><br>
+	<p id="s2"></p>
+	<script>
+		
+	  function ss()
+		{
+			document.getElementById("s2").innerHTML = "";
+			var temp=false;
+			var name = document.getElementById("s1").value;
+			var str  = document.querySelectorAll("p");// array is 
+			for(i = 0;i<str.length;i++)
+				{
+					if(str[i].innerHTML==name)
+						{
+			              	temp = true;			
+						}
+				}
+			if(temp==true)
+				{
+			      document.getElementById("s2").innerHTML = "Name match";
+					} else {
+						document.getElementById("s2").innerHTML = "No Match";
+					}
+			document.getElementById("s1").value="";
+		}
+	</script>
+	</body>
+</html>
+<!--if i enter bonny it says name match and then using backspace key if i clear and enter tony then same answer
+however if i clear refresh browser and then enter tony then answr is no match . Why refreshing browser necessary-->
