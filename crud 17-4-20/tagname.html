@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" id="gg"><br>
+	<input type="button" onclick="ss()">
+	<h1></h1>
+	<script>
+	function ss()
+		{
+			a=document.getElementById("gg").value;
+			b=document.getElementsByTagName("h1");//array intialized
+			b[0].innerHTML=a;
+		}
+	
+	</script>
+</body>
+</html>
+<!--getElementsbyTagName also initializes an array so we have to specify 
+the index position value as a result we have two statements to include whereas 
+using querySelector requires only one.-->

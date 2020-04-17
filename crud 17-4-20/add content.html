@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.s1{
+			width:1008px;
+			height:52px;
+		}
+		.s2{
+			width:250px;
+			height:50px;
+			float:left;
+			border:1px solid black;
+		}
+	</style>
+</head>
+
+<body>
+	<input type="text" id="a1" placeholder="enter name"><br>
+	<input type="text" id="a2" placeholder="enter Mobile"><br>
+	<input type="text" id="a3" placeholder="enter Email"><br>
+	<input type="text" id="a4" placeholder="enter password"><br>
+	<input type="button" value="create" onclick="ss1()">
+	
+	<p></p>
+	<script>
+		
+	function ss1()
+		{
+			
+					aa=document.querySelector("p");
+				    a=document.createElement("div");
+					a.classList.add("s1");
+					
+					c1=document.createElement("div");
+			        c1.classList.add("s2");
+					aa1=document.getElementById("a1").value;
+					c1.innerHTML=aa1;
+					a.appendChild(c1);
+					
+					c2=document.createElement("div");
+			        c2.classList.add("s2");
+					aa2=document.getElementById("a2").value;
+					c2.innerHTML=aa2;
+					a.appendChild(c2);
+					
+					c3=document.createElement("div");
+			        c3.classList.add("s2");
+					aa3=document.getElementById("a3").value;
+					c3.innerHTML=aa3;
+					a.appendChild(c3);
+					
+					c4=document.createElement("div");
+			        c4.classList.add("s2");
+					aa4=document.getElementById("a4").value;
+					c4.innerHTML=aa4;
+					a.appendChild(c4);
+					
+			        aa.appendChild(a);
+		}
+	
+	</script>
+</body>
+</html>
+

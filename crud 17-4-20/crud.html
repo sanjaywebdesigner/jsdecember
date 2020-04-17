@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" id="a1" placeholder="enter details"><br>
+	<input type="button" value="create" onclick="ss1()">
+	<input type="button" value="search" onclick="ss2()">
+	<input type="button" value="update" onclick="ss3()">
+	<input type="button" value="delete" onclick="ss4()">
+	<p></p>
+	<script>
+		var temp = 0;
+	function ss1()
+		{
+			if(temp==0)
+				{
+					var name = document.getElementById("a1").value;
+					var a  = document.createElement("ul");
+					var b  = document.createElement("li");
+					b.innerHTML = name;
+					a.appendChild(b);
+					var x = document.querySelector("p");
+					x.appendChild(a);
+					temp = 1;
+				} else {
+						var name = document.getElementById("a1").value;
+						var b  = document.createElement("li");
+						b.innerHTML = name;
+						var x = document.querySelector("ul");
+						x.appendChild(b);
+					}
+		}
+	
+	</script>
+</body>
+</html>
+
