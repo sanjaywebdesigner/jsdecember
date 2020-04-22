@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		p{
+			width:0px;
+			height:50px;
+		}
+		.b1{
+			width:50px;
+			background-color:red;
+		}
+		.b2{
+			width:50px;
+			background-color:yellow;
+		}
+		.b3{
+			width:50px;
+			background-color:green;
+		}
+	</style>
+</head>
+
+<body>
+	<input type="text" id="s1" onKeyUp="ss()"><br>
+	<p></p>
+	<script>
+	function ss()
+		{
+			a=document.querySelector("p");
+			b=document.getElementById("s1").value;
+			if(b.length<4)
+				{
+					a.classList.add("b1");
+					a.classList.remove("b2");
+					a.classList.remove("b3");
+				}
+			else if(b.length<8)
+				{
+					a.classList.add("b2");
+					a.classList.remove("b1");
+					a.classList.remove("b3");
+				}
+			else{
+				a.classList.add("b3");
+			}
+		}
+	
+	</script>
+</body>
+</html>
+<!--
+<p class="b1 b2 b3">
+
+-->
+<!--Please note the following-->
+<!--removes this class when text is reduced otherwise class .b3 remains executed. It doesnt revert back to class b1.-->
+<!--If method already states its a class e.g classlist so no need to put dot .
+sameway getelementbyid states id so no need to put # just put tag letter in double quotes-->
+<!--in the method appendchild its not mentioned whether its a class or id so put # or dot before letter-->
