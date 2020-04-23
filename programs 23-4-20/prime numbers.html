@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<input type = "text" placeholder = "number" id ="s1">
+	<input type = "button" value = "check" onclick ="ss1()">
+	<p id = "s2"></p>
+	<script>
+		function ss1()
+		{
+		    var temp = false;
+	        var number = Number(document.getElementById("s1").value);
+		    for(i = 2;i<=number/2;i++)
+				{
+					if(number%i==0)
+						{
+							temp = true;
+							break;
+						}
+				}
+		  if(temp)
+			  {
+				  document.getElementById("s2").innerHTML = "Not prime";
+			  } else {
+				  document.getElementById("s2").innerHTML = "number is prime";
+			  }
+		}
+	</script>
+</body>
+</html>

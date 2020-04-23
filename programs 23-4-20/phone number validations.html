@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body>
+    <input type = "text" placeholder = "enter number" id = "s1">
+    <input type = "button" value = "check" onclick = "ss1()">
+	<p id = "s2"></p>
+	<script>
+	         function ss1()
+		{
+			var num = document.getElementById("s1").value;
+			if(num.length==10 || num.length==11)
+				{
+					if (num.length==10 && (!(num==NaN)))
+						{
+							document.getElementById("s2").innerHTML = "correct";
+						} else {
+							document.getElementById("s2").innerHTML = "enter only numbers";
+						}
+					if (num.length==11 && (!(num==NaN)) && num.charAt(0)==0)
+						{
+							document.getElementById("s2").innerHTML = "correct";
+						} else {
+							document.getElementById("s2").innerHTML = "incorrect format";
+						}
+				}
+		}
+	</script>
+	</body>
+</html>
+<!--
+
+length 10 or 11 orb 13
+if 10 all are numerical values
+11  all are numerical and start with 0
+if 13 start with +91
+-->

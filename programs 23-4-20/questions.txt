@@ -1,0 +1,18 @@
+tax calculator
+salary calculations with and or or not
+watch
+time remaining in the destination time
+age calculator
+for loop gallary making
+for loop div creation
+name validation
+email validation
+password validation
+phone no validation
+crud  create read update delete
+name ka first character Capital baki small
+NaN
+reverse a number
+adding numbers
+amrstrong numbers
+prime numbers
