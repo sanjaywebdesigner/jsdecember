@@ -1,0 +1,35 @@
+<html>
+<head>
+
+</head>
+
+<body>
+
+<img src="gall/roll.jpg" onMouseOver="ss()" onmouseout="ss1()">
+
+	<script>
+	function ss()
+		{
+			a=document.querySelector("img");
+			a.src="gall/image1.jpg";
+			a.alt="my image";
+		}
+		function ss1()
+		{
+			a=document.querySelector("img");
+			a.src="gall/roll.jpg";
+			a.removeAttribute("alt");
+		}
+	</script>
+</body>
+</html>
+
+<!--
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+line number 24 img is an object and is called by name. 
+name is the attribute of img.
+-->
+
+
+

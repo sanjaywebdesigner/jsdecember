@@ -1,0 +1,37 @@
+<html>
+<head>
+<script type="text/javascript">
+
+image1= new Image();
+image1.src="gall/roll.jpg";//image1.src is the address of folder gall/roll.jpg and is  assigned to image1
+image2= new Image();
+image2.src="gall/image1.jpg";//image2.scr is the address of folder gall/image1.jpg which is further assigned to image2.
+//gall/image1.jpg is a source attribute hence cannot be directly assigned to var image1. Object will have to be created in this case.	
+
+
+
+function rollover(imagename, newsrc){
+document.images[imagename].src=newsrc.src
+}
+
+
+</script>
+</head>
+
+<body>
+<a href="#" onMouseOver="rollover('example', image2)"
+onmouseout="rollover('example', image1)">
+<img src="gall/roll.jpg" name="example" alt="my image">
+</a>
+</body>
+</html>
+
+<!--
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+line number 24 img is an object and is called by name. 
+name is the attribute of img.
+-->
+
+
+
